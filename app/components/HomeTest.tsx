@@ -8,7 +8,7 @@ const text = 'Use this tool to upload text you have wrote and then get Ai to res
 
 export default function Home() {
   return (
-    <div className={`${styles.card} flex items-center justify-left`}>
+    <div className={`${styles.card} flex items-center justify-center`}>
           <div className="w-64 h-55 rounded-lg border p-4 card">
               <h2 className="text-lg font-semibold mb-2">{title}</h2>
               <h3 className="text-sm mb-2 btext">{subHeader}</h3>
