@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import Home from './components/HomeTest'
-import Card from './components/Card'
+// import { MyPopover } from './components/Card'
 import HomeNoCard from './components/HomeNoCard'
 import Comp2 from './components/Comp2'
 import Comp3 from './components/Comp3'
@@ -15,6 +15,8 @@ export default function One() {
       </div>
       {HomeNoCard()}
       {Home()}
+
+      {/* {MyPopover()} */}
       {Comp2()}
       {Comp2()}
       {Comp2()}
